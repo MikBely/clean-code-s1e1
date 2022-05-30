@@ -32,7 +32,7 @@ body {
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .add-task-block {
   display: flex;
@@ -123,7 +123,7 @@ li > label {
   width: 226px;
 }
 li >    input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 .delete img {
   height: 2em;
@@ -137,19 +137,19 @@ li >    input[type="text"] {
 /* Completed */
 
 #todo-completed-list label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 
 ul li input[type=text] {
-  display: none
+  display: none;
 }
 
 ul .todo-task-constructor input[type=text] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 ul .todo-task-constructor label {
