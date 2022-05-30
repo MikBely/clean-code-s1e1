@@ -10,7 +10,7 @@ body {
   display: block;
   text-align: right;
 }
-.todo-header img {
+.todo-header-image {
   width: 100%;
 }
 .todo-header .more-deatils-link {
@@ -128,7 +128,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#todo-tasks-list label {
+ul#todo-completed-list label {
   text-decoration: line-through
   color: #888;
 }
